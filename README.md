@@ -30,4 +30,3 @@ Its a simple JavaScript code to search in search in a list
 
 `list-search` and `search-field` should be in list html.
 ##LICENSE
-
