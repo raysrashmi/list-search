@@ -1,6 +1,6 @@
 class GlobalSearch
-  $search_div =   "[data-role='project-search']"
-  $search_field = "[data-role='project-name']"
+  $search_div =   "[data-role='list-search']"
+  $search_field = "[data-role='search-field']"
 
   constructor: (term_length)->
     @term_length = term_length
