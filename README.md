@@ -1,5 +1,8 @@
 #ListSearch
 Its a simple JavaScript code to search in search in a list
+##DEMO 
+
+[http://list-search-example.herokuapp.com/](http://list-search-example.herokuapp.com/)
 
 ##How to use
  Include filter.js file or filter.coffee
