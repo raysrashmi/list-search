@@ -7,14 +7,10 @@ class GlobalSearch
     @_search()
 
   _search: ->
-    console.log($('h1').length)
-    alert( $("#{$search_div}").length)
     term_length = @term_length
     $("#{$search_div}").find('input.search').keyup ->
       terms = $(this).val().toLowerCase()
-      console.log(terms.length >= term_length)
       if terms.length >= term_length
-        console.log('enter')
         $('ul.list li').each ->
           $(@).find("#{$search_field}").each ->
             if($(@).text().toLowerCase().indexOf(terms)!= -1)
